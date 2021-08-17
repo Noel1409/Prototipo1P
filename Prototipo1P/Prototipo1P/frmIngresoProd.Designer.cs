@@ -165,6 +165,7 @@ namespace Prototipo1P
             this.Controls.Add(this.label1);
             this.Name = "frmIngresoProd";
             this.Text = "Ingreso Productos";
+            this.Load += new System.EventHandler(this.frmIngresoProd_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

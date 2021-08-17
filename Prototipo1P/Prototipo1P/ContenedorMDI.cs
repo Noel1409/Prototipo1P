@@ -56,5 +56,10 @@ namespace Prototipo1P
             frmLB.MdiParent = this;
             frmLB.Show();
         }
+
+        private void gestiónExistenciasToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

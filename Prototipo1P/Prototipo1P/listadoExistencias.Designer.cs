@@ -63,6 +63,7 @@ namespace Prototipo1P
             this.btnActu.TabIndex = 2;
             this.btnActu.Text = "Actualizar";
             this.btnActu.UseVisualStyleBackColor = false;
+            this.btnActu.Click += new System.EventHandler(this.btnActu_Click);
             // 
             // listadoExistencias
             // 
@@ -75,6 +76,7 @@ namespace Prototipo1P
             this.Controls.Add(this.dgvExitencias);
             this.Name = "listadoExistencias";
             this.Text = "Listado de Existencias";
+            this.Load += new System.EventHandler(this.listadoExistencias_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvExitencias)).EndInit();
             this.ResumeLayout(false);
 

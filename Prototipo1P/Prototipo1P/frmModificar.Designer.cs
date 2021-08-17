@@ -129,6 +129,7 @@ namespace Prototipo1P
             this.cmbCod.Name = "cmbCod";
             this.cmbCod.Size = new System.Drawing.Size(121, 23);
             this.cmbCod.TabIndex = 20;
+            this.cmbCod.SelectedIndexChanged += new System.EventHandler(this.cmbCod_SelectedIndexChanged);
             // 
             // dgvDatosActu
             // 
@@ -168,6 +169,7 @@ namespace Prototipo1P
             this.btnActu.TabIndex = 24;
             this.btnActu.Text = "Actualizar";
             this.btnActu.UseVisualStyleBackColor = true;
+            this.btnActu.Click += new System.EventHandler(this.btnActu_Click);
             // 
             // btnRegresar
             // 
@@ -202,6 +204,7 @@ namespace Prototipo1P
             this.Controls.Add(this.label1);
             this.Name = "frmModificar";
             this.Text = "Modificar Producto";
+            this.Load += new System.EventHandler(this.frmModificar_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvDatosActu)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

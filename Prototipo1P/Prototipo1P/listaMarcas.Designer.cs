@@ -53,6 +53,7 @@ namespace Prototipo1P
             this.btnActu.TabIndex = 1;
             this.btnActu.Text = "Actualizar";
             this.btnActu.UseVisualStyleBackColor = false;
+            this.btnActu.Click += new System.EventHandler(this.btnActu_Click);
             // 
             // btnRegresar
             // 
@@ -75,6 +76,7 @@ namespace Prototipo1P
             this.Controls.Add(this.dgvMarcas);
             this.Name = "listaMarcas";
             this.Text = "Listado de Marcas";
+            this.Load += new System.EventHandler(this.listaMarcas_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvMarcas)).EndInit();
             this.ResumeLayout(false);
 

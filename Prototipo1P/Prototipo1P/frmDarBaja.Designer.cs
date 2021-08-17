@@ -45,6 +45,7 @@ namespace Prototipo1P
             this.cmbProducto.Name = "cmbProducto";
             this.cmbProducto.Size = new System.Drawing.Size(121, 23);
             this.cmbProducto.TabIndex = 0;
+            this.cmbProducto.SelectedIndexChanged += new System.EventHandler(this.cmbProducto_SelectedIndexChanged);
             // 
             // label1
             // 
@@ -93,6 +94,7 @@ namespace Prototipo1P
             this.btnEliminar.TabIndex = 5;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = true;
+            this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
             // frmDarBaja
             // 
@@ -108,6 +110,7 @@ namespace Prototipo1P
             this.Controls.Add(this.cmbProducto);
             this.Name = "frmDarBaja";
             this.Text = "Dar de Baja Productos";
+            this.Load += new System.EventHandler(this.frmDarBaja_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvDatos)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

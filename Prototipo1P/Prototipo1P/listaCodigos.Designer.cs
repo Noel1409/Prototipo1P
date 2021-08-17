@@ -76,6 +76,7 @@ namespace Prototipo1P
             this.Controls.Add(this.dgvCodigos);
             this.Name = "listaCodigos";
             this.Text = "Listado Código - Líneas";
+            this.Load += new System.EventHandler(this.listaCodigos_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvCodigos)).EndInit();
             this.ResumeLayout(false);
 

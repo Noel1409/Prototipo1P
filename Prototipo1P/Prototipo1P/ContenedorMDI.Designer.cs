@@ -91,7 +91,7 @@ namespace Prototipo1P
             // 
             this.gestiónCódigosToolStripMenuItem.Name = "gestiónCódigosToolStripMenuItem";
             this.gestiónCódigosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.gestiónCódigosToolStripMenuItem.Text = "Listado Códigos";
+            this.gestiónCódigosToolStripMenuItem.Text = "Listado Lineas";
             this.gestiónCódigosToolStripMenuItem.Click += new System.EventHandler(this.gestiónCódigosToolStripMenuItem_Click);
             // 
             // gestiónBodegasToolStripMenuItem
@@ -112,6 +112,8 @@ namespace Prototipo1P
             // 
             this.gestiónExistenciasToolStripMenuItem1.Name = "gestiónExistenciasToolStripMenuItem1";
             this.gestiónExistenciasToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.gestiónExistenciasToolStripMenuItem1.Text = "Salir";
+            this.gestiónExistenciasToolStripMenuItem1.Click += new System.EventHandler(this.gestiónExistenciasToolStripMenuItem1_Click);
             // 
             // catálogosToolStripMenuItem
             // 

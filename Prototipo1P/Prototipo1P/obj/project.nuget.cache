@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "wwa3V3N6tfiAStx1hfyl91Q5ncEhwXC8Ly6GbaKu2lsqXTKNU5XYTFPaVKx2HpUmr6eh7pg4jDR1X9YVF1ZIow==",
+  "dgSpecHash": "yYp7rfkDrVLeXOD2u7Hit2IzCbRDxedXioRUr677QVYiIsGOZdNkq4oOas7NgPgPVTh0/eLeDeBpCxskeUc2PQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Usuario\\Desktop\\parcial\\3raserie\\Prototipo1P\\Prototipo1P\\Prototipo1P\\Prototipo1P.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\system.data.odbc\\5.0.0\\system.data.odbc.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

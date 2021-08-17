@@ -64,6 +64,7 @@ namespace Prototipo1P
             this.btnActu.TabIndex = 2;
             this.btnActu.Text = "Actualizar";
             this.btnActu.UseVisualStyleBackColor = false;
+            this.btnActu.Click += new System.EventHandler(this.btnActu_Click);
             // 
             // listaBodegas
             // 
@@ -76,6 +77,7 @@ namespace Prototipo1P
             this.Controls.Add(this.dgvBodegas);
             this.Name = "listaBodegas";
             this.Text = "Listado Bodegas";
+            this.Load += new System.EventHandler(this.listaBodegas_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvBodegas)).EndInit();
             this.ResumeLayout(false);
 
