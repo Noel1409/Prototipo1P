@@ -1,0 +1,246 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Prototipo1P/1.0.0": {
+        "dependencies": {
+          "System.Data.Odbc": "5.0.0",
+          "BouncyCastle.Crypto": "1.8.5.0",
+          "Google.Protobuf": "3.11.4.0",
+          "K4os.Compression.LZ4": "1.1.11.0",
+          "K4os.Compression.LZ4.Streams": "1.1.11.0",
+          "K4os.Hash.xxHash": "1.0.6.0",
+          "MySql.Data": "8.0.23.0",
+          "MySql.Data.EntityFramework": "8.0.23.0",
+          "MySql.Web": "8.0.23.0",
+          "Renci.SshNet": "2020.0.0.0",
+          "SshNet.Security.Cryptography": "1.2.0.0",
+          "Ubiety.Dns.Core": "2.2.1.0",
+          "Zstandard.Net": "1.1.7.0"
+        },
+        "runtime": {
+          "Prototipo1P.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/5.0.0": {},
+      "System.Data.Odbc/5.0.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Data.Odbc.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/freebsd/lib/netcoreapp2.0/System.Data.Odbc.dll": {
+            "rid": "freebsd",
+            "assetType": "runtime",
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          },
+          "runtimes/linux/lib/netcoreapp2.0/System.Data.Odbc.dll": {
+            "rid": "linux",
+            "assetType": "runtime",
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          },
+          "runtimes/osx/lib/netcoreapp2.0/System.Data.Odbc.dll": {
+            "rid": "osx",
+            "assetType": "runtime",
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          },
+          "runtimes/win/lib/netcoreapp2.0/System.Data.Odbc.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "BouncyCastle.Crypto/1.8.5.0": {
+        "runtime": {
+          "BouncyCastle.Crypto.dll": {
+            "assemblyVersion": "1.8.5.0",
+            "fileVersion": "1.8.19031.1"
+          }
+        }
+      },
+      "Google.Protobuf/3.11.4.0": {
+        "runtime": {
+          "Google.Protobuf.dll": {
+            "assemblyVersion": "3.11.4.0",
+            "fileVersion": "3.11.4.0"
+          }
+        }
+      },
+      "K4os.Compression.LZ4/1.1.11.0": {
+        "runtime": {
+          "K4os.Compression.LZ4.dll": {
+            "assemblyVersion": "1.1.11.0",
+            "fileVersion": "1.1.11.0"
+          }
+        }
+      },
+      "K4os.Compression.LZ4.Streams/1.1.11.0": {
+        "runtime": {
+          "K4os.Compression.LZ4.Streams.dll": {
+            "assemblyVersion": "1.1.11.0",
+            "fileVersion": "1.1.11.0"
+          }
+        }
+      },
+      "K4os.Hash.xxHash/1.0.6.0": {
+        "runtime": {
+          "K4os.Hash.xxHash.dll": {
+            "assemblyVersion": "1.0.6.0",
+            "fileVersion": "1.0.6.0"
+          }
+        }
+      },
+      "MySql.Data/8.0.23.0": {
+        "runtime": {
+          "MySql.Data.dll": {
+            "assemblyVersion": "8.0.23.0",
+            "fileVersion": "8.0.23.0"
+          }
+        }
+      },
+      "MySql.Data.EntityFramework/8.0.23.0": {
+        "runtime": {
+          "MySql.Data.EntityFramework.dll": {
+            "assemblyVersion": "8.0.23.0",
+            "fileVersion": "8.0.23.0"
+          }
+        }
+      },
+      "MySql.Web/8.0.23.0": {
+        "runtime": {
+          "MySql.Web.dll": {
+            "assemblyVersion": "8.0.23.0",
+            "fileVersion": "8.0.23.0"
+          }
+        }
+      },
+      "Renci.SshNet/2020.0.0.0": {
+        "runtime": {
+          "Renci.SshNet.dll": {
+            "assemblyVersion": "2020.0.0.0",
+            "fileVersion": "2020.0.0.0"
+          }
+        }
+      },
+      "SshNet.Security.Cryptography/1.2.0.0": {
+        "runtime": {
+          "SshNet.Security.Cryptography.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.0.0"
+          }
+        }
+      },
+      "Ubiety.Dns.Core/2.2.1.0": {
+        "runtime": {
+          "Ubiety.Dns.Core.dll": {
+            "assemblyVersion": "2.2.1.0",
+            "fileVersion": "2.2.1.0"
+          }
+        }
+      },
+      "Zstandard.Net/1.1.7.0": {
+        "runtime": {
+          "Zstandard.Net.dll": {
+            "assemblyVersion": "1.1.7.0",
+            "fileVersion": "1.1.7.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Prototipo1P/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.NETCore.Platforms/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VyPlqzH2wavqquTcYpkIIAQ6WdenuKoFN0BdYBbCWsclXacSOHNQn66Gt4z5NBqEYW0FAPm5rlvki9ZiCij5xQ==",
+      "path": "microsoft.netcore.platforms/5.0.0",
+      "hashPath": "microsoft.netcore.platforms.5.0.0.nupkg.sha512"
+    },
+    "System.Data.Odbc/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-j4WsYGmcD7m1D0Tc3N7HqWqcdUHNn9+kdXh9ODTWEsOGrAvALf+BgRStd7L0/O/zDS0R4Uu9vNM8UY6EnK+WYw==",
+      "path": "system.data.odbc/5.0.0",
+      "hashPath": "system.data.odbc.5.0.0.nupkg.sha512"
+    },
+    "BouncyCastle.Crypto/1.8.5.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Google.Protobuf/3.11.4.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "K4os.Compression.LZ4/1.1.11.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "K4os.Compression.LZ4.Streams/1.1.11.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "K4os.Hash.xxHash/1.0.6.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MySql.Data/8.0.23.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MySql.Data.EntityFramework/8.0.23.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MySql.Web/8.0.23.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Renci.SshNet/2020.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SshNet.Security.Cryptography/1.2.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ubiety.Dns.Core/2.2.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Zstandard.Net/1.1.7.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
